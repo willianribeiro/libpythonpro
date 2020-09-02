@@ -6,3 +6,5 @@ install:
 script:
   - flake8
   - pytest my_libpythonpro --cov=my_libpythonpro
+after_success:
+  - codecov
