@@ -1,6 +1,3 @@
-from time import sleep
-
-
 class Sessao(object):
     contador = 0
     usuarios = []
